@@ -16,7 +16,7 @@
 
     <button plain @click="setImage()">手动拍照</button>
     <p class="fail_tips"></p>
-    // 给外面盒子设置宽高，可以限制拍照图片的大小位置范围
+<!--    // 给外面盒子设置宽高，可以限制拍照图片的大小位置范围-->
     <div class="result_img">
       <img :src="imgSrc" alt class="tx_img" width="100%" height="100%" />
     </div>
